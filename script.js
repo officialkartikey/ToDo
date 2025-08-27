@@ -10,7 +10,7 @@ function Add() {
         text.appendChild(newEle);
         inputs.value = "";
 
-        // Trash icon click     handler
+        // Trash icon click       handler
         let trash = newEle.querySelector("i");
         trash.addEventListener("click", () => {
             newEle.remove();
